@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Richard Souza</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+  <style>
+    /* Reset básico */
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background: #007bff;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover { color: #ffd700; }
+
+    .hero {
+      background: linear-gradient(rgba(0,123,255,0.8), rgba(0,123,255,0.6)), url('../imagens/hero-bg.jpg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 { font-size: 2.5rem; margin-bottom: 20px; }
+    .hero p { font-size: 1.2rem; margin-bottom: 30px; }
+    .hero .btn {
+      padding: 15px 25px;
+      font-size: 1rem;
+      background: #ffd700;
+      color: #007bff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .hero .btn:hover { background: #fff; color: #007bff; transform: translateY(-3px); }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #007bff;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover { transform: translateY(-5px); }
+
+    .card h3 { margin-bottom: 10px; color: #007bff; }
+    .card p { color: #555; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #007bff;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Richard Souza</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="login.html">Login</a>
+      <a href="registro.html">Registro</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bem-vindo ao meu Portfólio Interativo!</h2>
+    <p>Explore meus projetos em programação, front-end, back-end e mobile, totalmente responsivos e profissionais.</p>
+    <a class="btn" href="projetos.html">Ver Projetos</a>
+  </section>
+
+  <section>
+    <h2 class="section-title">Destaques</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Projetos de Front-end</h3>
+        <p>Criação de páginas responsivas, animações, SPA com React e muito mais.</p>
+      </div>
+      <div class="card">
+        <h3>Projetos de Back-end</h3>
+        <p>APIs REST, autenticação JWT, bancos de dados SQL e NoSQL, microserviços.</p>
+      </div>
+      <div class="card">
+        <h3>Projetos Mobile</h3>
+        <p>Apps em React Native com funcionalidades completas e integração com backend.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Sobre Mim</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+      Meu nome é Richard Souza, estudante da UNIVESP e desenvolvedor de soluções modernas e interativas. Meu portfólio mostra meu aprendizado e projetos em diversas tecnologias, integrando frontend, backend e deploy em cloud.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Richard Souza | Todos os direitos reservados
+  </footer>
+</body>
+</html>

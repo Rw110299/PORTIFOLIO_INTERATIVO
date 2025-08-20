@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Projeto - Richard Souza</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #007bff;
+      margin-bottom: 30px;
+    }
+
+    .projeto-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .projeto-container h2 { font-size: 1.8rem; margin-bottom: 15px; }
+    .projeto-container p { font-size: 1rem; color: #555; line-height: 1.6; margin-bottom: 15px; }
+
+    .detalhes { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; }
+    .detalhe { flex: 1 1 200px; background: #f1f1f1; padding: 15px; border-radius: 8px; }
+    .detalhe h3 { margin: 0 0 10px 0; font-size: 1.1rem; color: #007bff; }
+    .detalhe p { margin: 0; font-size: 0.95rem; color: #333; }
+
+    .links { margin-top: 20px; }
+    .links a {
+      display: inline-block;
+      margin-right: 15px;
+      padding: 10px 15px;
+      background: #28a745;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .links a:hover { background: #1e7e34; }
+  </style>
+</head>
+<body>
+
+  <header>📌 Detalhes do Projeto</header>
+
+  <div class="projeto-container" id="projeto-container">
+    <h2 id="projeto-titulo">Título do Projeto</h2>
+    <p id="projeto-descricao">Descrição detalhada do projeto selecionado.</p>
+
+    <div class="detalhes">
+      <div class="detalhe">
+        <h3>Tecnologias</h3>
+        <p id="projeto-tecnologias"></p>
+      </div>
+      <div class="detalhe">
+        <h3>Aprendizado</h3>
+        <p id="projeto-aprendizado"></p>
+      </div>
+      <div class="detalhe">
+        <h3>Dificuldade</h3>
+        <p id="projeto-dificuldade"></p>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="#" id="projeto-link-codigo" target="_blank">Ver Código</a>
+      <a href="#" id="projeto-link-demo" target="_blank">Ver Demo</a>
+    </div>
+  </div>
+
+  <script>
+    // Função para pegar parâmetro da URL
+    function getParametro(nome) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(nome);
+    }
+
+    const numeroProjeto = getParametro("numero");
+    const API_URL = "http://127.0.0.1:8000/projetos/" + numeroProjeto;
+
+    // Carregar dados do projeto individual da API
+    async function carregarProjeto() {
+      try {
+        const res = await fetch(API_URL);
+        if(!res.ok) throw new Error("Projeto não encontrado");
+        const projeto = await res.json();
+
+        document.getElementById('projeto-titulo').innerText = projeto.nome;
+        document.getElementById('projeto-descricao').innerText = projeto.descricao;
+        document.getElementById('projeto-tecnologias').innerText = projeto.tecnologias.join(", ");
+        document.getElementById('projeto-aprendizado').innerText = projeto.aprendizado;
+        document.getElementById('projeto-dificuldade').innerText = projeto.dificuldade;
+        document.getElementById('projeto-link-codigo').href = projeto.linkCodigo;
+        document.getElementById('projeto-link-demo').href = projeto.linkDemo || "#";
+
+      } catch (erro) {
+        console.error(erro);
+        document.getElementById('projeto-container').innerHTML = "<p style='color:red;'>Erro ao carregar o projeto.</p>";
+      }
+    }
+
+    // Executa ao carregar a página
+    carregarProjeto();
+  </script>
+
+</body>
+</html>

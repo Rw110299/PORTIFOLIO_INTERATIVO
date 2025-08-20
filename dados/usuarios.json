@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "nome": "Richard Souza",
+    "email": "richard@email.com",
+    "senha": "123456", 
+    "idade": 30,
+    "progresso": {
+      "001": "concluido",
+      "002": "concluido",
+      "003": "em andamento"
+    },
+    "favoritos": ["001", "025", "050"]
+  },
+  {
+    "id": 2,
+    "nome": "Maria Silva",
+    "email": "maria@email.com",
+    "senha": "abcdef", 
+    "idade": 25,
+    "progresso": {},
+    "favoritos": []
+  }
+]

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Richard Souza</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #007bff;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover { color: #ffd700; }
+
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #007bff;
+      margin-bottom: 40px;
+    }
+
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-content img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .about-text h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    .about-text p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .skills {
+      margin-top: 20px;
+    }
+
+    .skill {
+      background: #007bff;
+      color: #fff;
+      display: inline-block;
+      padding: 8px 15px;
+      border-radius: 20px;
+      margin: 5px 5px 0 0;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #007bff;
+      color: #fff;
+      margin-top: 50px;
+    }
+
+    @media(max-width: 768px){
+      .about-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .about-text {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Richard Souza</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="login.html">Login</a>
+      <a href="registro.html">Registro</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2 class="section-title">Sobre Mim</h2>
+
+    <div class="about-content">
+      <img src="../imagens/foto-perfil.jpg" alt="Richard Souza">
+
+      <div class="about-text">
+        <h2>Olá, eu sou Richard!</h2>
+        <p>Sou estudante da UNIVESP e desenvolvedor apaixonado por criar soluções modernas e interativas. Tenho experiência em Frontend, Backend, Mobile e Cloud, integrando tecnologias para criar projetos completos e funcionais.</p>
+        <p>Meu objetivo é aprender constantemente e construir projetos profissionais que possam impactar positivamente a vida das pessoas e empresas.</p>
+
+        <div class="skills">
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">React.js</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">Python</span>
+          <span class="skill">Django</span>
+          <span class="skill">Docker</span>
+          <span class="skill">Kubernetes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Richard Souza | Todos os direitos reservados
+  </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+# 📘 Índice dos 108 Projetos
+
+✅ = Finalizado  
+⚙ = Em andamento  
+❌ = Não iniciado
+
+| Nº   | Projeto                                     | Status | Última Atualização  |
+|------| --------------------------------------------|--------|---------------------|
+| 001  | Calculadora simples em Python               | ⚙     | -   13/08/25                |
+| 002  | Jogo da Forca em Python                     | ⚙     | -   13/08/25                |
+| 003  | Validador de CPF em JavaScript              | ⚙     | -   13/08/25                |
+| 004  | Conversor de temperatura (C/F)              | ⚙     | -    13/08/25               |
+| 005  | Lista de tarefas com React                  | ⚙     | -    13/08/25               |
+| 006  | Web scraping básico com Python              | ⚙      | -   14/08/25                |
+| 007  | CRUD básico com Flask e SQLite              | ⚙      | -   14/08/25                |
+| 008  | Pipeline CI/CD com GitHub Actions           | ❌     | -                   |
+| 009  | Validador de email em JavaScript            | ❌     | -                   |
+| 010  | Jogo da velha com HTML/CSS/JS               | ❌     | -                   |
+| 011  | Chat simples em Node.js com Socket.io       | ❌     | -                   |
+| 012  | API RESTful básica com Express.js           | ❌     | -                   |
+| 013  | Página responsiva com HTML5 e CSS3          | ❌     | -                   |
+| 014  | Animações CSS avançadas                     | ❌     | -                   |
+| 015  | Formulário com validação JavaScript         | ❌     | -                   |
+| 016  | Site pessoal com Bootstrap                  | ❌     | -                   |
+| 017  | SPA com React Router                        | ❌     | -                   |
+| 018  | Consumo de API pública com React e Axios    | ❌     | -                   |
+| 019  | Dashboard simples com Vue.js                | ❌     | -                   |
+| 020  | Projeto com Angular básico                  | ❌     | -                   |
+| 021  | PWA simples                                 | ❌     | -                   |
+| 022  | Animação com Canvas API                     | ❌     | -                   |
+| 023  | Tema escuro automático com CSS e JS         | ❌     | -                   |
+| 024  | Biblioteca de componentes com Storybook     | ❌     | -                   |
+| 025  | Calculadora com Tema Claro/Escuro           | ❌     | -                   |
+| 026  | Gerador de Paletas de Cores                 | ❌     | -                   |
+| 027  | Relógio Digital e Analógico                 | ❌     | -                   |
+| 028  | Conversor de Moedas com API                 | ❌     | -                   |
+| 029  | Animações com Scroll Reveal                 | ❌     | -                   |
+| 030  | Página de Portfólio Minimalista             | ❌     | -                   |
+| 031  | Modal com Acessibilidade                    | ❌     | -                   |
+| 032  | Formulário Multi-Etapas                     | ❌     | -                   |
+| 033  | Slider de Imagens Automático                | ❌     | -                   |
+| 034  | Página de Login com Validação               | ❌     | -                   |
+| 035  | Página Coming Soon com Contador             | ❌     | -                   |
+| 036  | To-Do List com Drag-and-Drop                | ❌     | -                   |
+| 037  | API REST com Django REST Framework          | ❌     | -                   |
+| 038  | Autenticação JWT com Node.js                | ❌     | -                   |
+| 039  | Upload de arquivos com Express              | ❌     | -                   |
+| 040  | Banco de dados relacional com PostgreSQL    | ❌     | -                   |
+| 041  | Integração com MongoDB                      |  ⚙     | -    14/08/25               |
+| 042  | Cache com Redis                             |  ⚙     | -    14/08/25               |
+| 043  | Serviço de email automático com Python      | ❌     | -                   |
+| 044  | Microserviço simples em Go                  | ❌     | -                   |
+| 045  | Sistema de filas com RabbitMQ               | ❌     | -                   |
+| 046  | Projeto Backend Avançado 1                  | ❌     | -                   |
+| 047  | Projeto Backend Avançado 2                  | ❌     | -                   |
+| 048  | Projeto Backend Avançado 3                  | ❌     | -                   |
+| 049  | Projeto Backend Avançado 4                  | ❌     | -                   |
+| 050  | Projeto Backend Avançado 5                  | ❌     | -                   |
+| 051  | Projeto Backend Avançado 6                  | ❌     | -                   |
+| 052  | Projeto Backend Avançado 7                  | ❌     | -                   |
+| 053  | Projeto Backend Avançado 8                  | ❌     | -                   |
+| 054  | Projeto Backend Avançado 9                  | ❌     | -                   |
+| 055  | Projeto Backend Avançado 10                 | ❌     | -                   |
+| 056  | Projeto Backend Avançado 11                 | ❌     | -                   |
+| 057  | Projeto Backend Avançado 12                 | ❌     | -                   |
+| 058  | Projeto Backend Avançado 13                 | ❌     | -                   |
+| 059  | Projeto Backend Avançado 14                 | ❌     | -                   |
+| 060  | Projeto Backend Avançado 15                 | ❌     | -                   |
+| 061  | Deploy de app React no Netlify              | ❌     | -                   |
+| 062  | Dockerização de app Python                  | ❌     | -                   |
+| 063  | Kubernetes básico com minikube              | ❌     | -                   |
+| 064  | Automação com Terraform                     | ❌     | -                   |
+| 065  | Pipeline CI/CD com Jenkins                  | ❌     | -                   |
+| 066  | Monitoramento com Prometheus e Grafana      | ❌     | -                   |
+| 067  | Logging centralizado com ELK stack          | ❌     | -                   |
+| 068  | Configuração AWS S3 para storage            | ❌     | -                   |
+| 069  | AWS Lambda básico                           | ❌     | -                   |
+| 070  | Projeto Cloud/DevOps 1                      | ❌     | -                   |
+| 071  | Projeto Cloud/DevOps 2                      | ❌     | -                   |
+| 072  | Projeto Cloud/DevOps 3                      | ❌     | -                   |
+| 073  | Projeto Cloud/DevOps 4                      | ❌     | -                   |
+| 074  | Projeto Cloud/DevOps 5                      | ❌     | -                   |
+| 075  | Projeto Cloud/DevOps 6                      | ❌     | -                   |
+| 076  | Projeto Cloud/DevOps 7                      | ❌     | -                   |
+| 077  | Projeto Cloud/DevOps 8                      | ❌     | -                   |
+| 078  | Projeto Cloud/DevOps 9                      | ❌     | -                   |
+| 079  | Projeto Cloud/DevOps 10                     | ❌     | -                   |
+| 080  | Projeto Cloud/DevOps 11                     | ❌     | -                   |
+| 081  | Projeto Cloud/DevOps 12                     | ❌     | -                   |
+| 082  | Projeto Cloud/DevOps 13                     | ❌     | -                   |
+| 083  | Projeto Cloud/DevOps 14                     | ❌     | -                   |
+| 084  | Projeto Cloud/DevOps 15                     | ❌     | -                   |
+| 085  | App mobile básico com React Native          | ❌     | -                   |
+| 086  | Chatbot com Python e NLP                    | ❌     | -                   |
+| 087  | Integração com APIs externas                | ❌     | -                   |
+| 088  | Projeto fullstack com Next.js               | ❌     | -                   |
+| 089  | Sistema de recomendação simples             | ❌     | -                   |
+| 090  | Análise de dados com Pandas e Matplotlib    | ❌     | -                   |
+| 091  | Projeto Avançado 1                          | ❌     | -                   |
+| 092  | Projeto Avançado 2                          | ❌     | -                   |
+| 093  | Projeto Avançado 3                          | ❌     | -                   |
+| 094  | Projeto Avançado 4                          | ❌     | -                   |
+| 095  | Projeto Avançado 5                          | ❌     | -                   |
+| 096  | Projeto Avançado 6                          | ❌     | -                   |
+| 097  | Projeto Avançado 7                          | ❌     | -                   |
+| 098  | Projeto Avançado 8                          | ❌     | -                   |
+| 099  | Projeto Avançado 9                          | ❌     | -                   |
+| 100  | Projeto Avançado 10                         | ❌     | -                   |
+| 101  | Projeto Avançado 11                         | ❌     | -                   |
+| 102  | Projeto Avançado 12                         | ❌     | -                   |
+| 103  | Projeto Avançado 13                         | ❌     | -                   |
+| 104  | Projeto Avançado 14                         | ❌     | -                   |
+| 105  | Projeto Avançado 15                         | ❌     | -                   |
+| 106  | Projeto Avançado 16                         | ❌     | -                   |
+| 107  | Projeto Avançado 17                         | ❌     | -                   |
+| 108  | Projeto Avançado 18                         | ❌     | -                   |
+
+> Atualize este arquivo a cada projeto concluído para manter o controle.
